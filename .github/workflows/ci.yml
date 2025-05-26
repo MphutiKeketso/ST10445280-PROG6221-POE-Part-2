@@ -22,17 +22,17 @@ jobs:
 
     - name: Restore Dependencies
       run: dotnet restore
-      working-directory: POE Part 2.sln # Update this path!
+      working-directory: ST10445280-PROG6221-POE-Part-2 # Update this path!
       
     - name: Check Code Formatting
       run: dotnet format --verify-no-changes
-      working-directory: POE Part 2.sln # Update this path!
+      working-directory: ST10445280-PROG6221-POE-Part-2 # Update this path!
       continue-on-error: true # optional — you can set to false to fail if not formatted
 
     - name: Build Project
       run: dotnet build --no-restore --configuration Release
-      working-directory: POE Part 2.sln # Update this path!
+      working-directory: ST10445280-PROG6221-POE-Part-2 # Update this path!
       
     - name: Run Syntax Check / Compilation Test
       run: dotnet build --no-restore --configuration Release --warnaserror
-      working-directory: POE Part 2.sln # Update this path!
+      working-directory: ST10445280-PROG6221-POE-Part-2 # Update this path!
