@@ -1,0 +1,38 @@
+name: C# Console App CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # or '7.0.x' if you're on .NET 7
+
+    - name: Restore Dependencies
+      run: dotnet restore
+      working-directory: POE Part 2.sln # Update this path!
+      
+    - name: Check Code Formatting
+      run: dotnet format --verify-no-changes
+      working-directory: POE Part 2.sln # Update this path!
+      continue-on-error: true # optional — you can set to false to fail if not formatted
+
+    - name: Build Project
+      run: dotnet build --no-restore --configuration Release
+      working-directory: POE Part 2.sln # Update this path!
+      
+    - name: Run Syntax Check / Compilation Test
+      run: dotnet build --no-restore --configuration Release --warnaserror
+      working-directory: POE Part 2.sln # Update this path!
