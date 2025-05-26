@@ -14,7 +14,7 @@ which personalized messages creating an inviting atmosphere
 - Microsoft visual studio 2022
 
 *Installing*
-- Download the entire project folder from the github repository [here](https://github.com/MphutiKeketso/ST10445280-PROG6221-POE-Part-1)
+- Download the entire project folder from the github repository [here](https://github.com/MphutiKeketso/ST10445280-PROG6221-POE-Part-2/tree/main)
 - Open settings
 - Click on system
 - scroll down to till you find the "For developers" option and click on It
