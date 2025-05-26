@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Media;
+
 
 namespace POE_Part_2
 {
@@ -82,5 +84,28 @@ namespace POE_Part_2
                 }
             }
         }
+
+        public static void Play()
+        {
+            try
+            {
+                SoundPlayer player = new SoundPlayer("Resources/greeting.wav");
+                player.PlaySync();
+            }
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("[Error: The audio file was not found. Please ensure it exists at the specified location.]");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("[Error playing audio: " + e.Message + "]");
+            }
+
+
+        }
+
+
+
+
     }
 }

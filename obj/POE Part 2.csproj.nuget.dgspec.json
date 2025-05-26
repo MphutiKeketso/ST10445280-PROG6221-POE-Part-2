@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\POE Part 2.csproj": {}
+    "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\POE Part 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\POE Part 2.csproj": {
+    "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\POE Part 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\POE Part 2.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\POE Part 2.csproj",
         "projectName": "POE Part 2",
-        "projectPath": "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\POE Part 2.csproj",
-        "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\obj\\",
+        "projectPath": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\POE Part 2.csproj",
+        "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -54,6 +54,10 @@
             "DotnetGeminiSDK": {
               "target": "Package",
               "version": "[1.0.14, )"
+            },
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [
@@ -72,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

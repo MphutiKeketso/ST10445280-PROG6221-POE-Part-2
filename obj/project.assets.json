@@ -43,6 +43,25 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Windows.Extensions/9.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Windows.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
       }
     }
   },
@@ -121,31 +140,56 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "System.Windows.Extensions/9.0.5": {
+      "sha512": "zY91ORvF6opIT4QHp4Xi7x7lpg0ZVi0x2JoNYnjHx63UrhAYrUSQzQbpJPdkMS6gqRnFDKx3ojF1QVlKeucWAg==",
+      "type": "package",
+      "path": "system.windows.extensions/9.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/System.Windows.Extensions.dll",
+        "lib/net8.0/System.Windows.Extensions.xml",
+        "lib/net9.0/System.Windows.Extensions.dll",
+        "lib/net9.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net8.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net8.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net9.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net9.0/System.Windows.Extensions.xml",
+        "system.windows.extensions.9.0.5.nupkg.sha512",
+        "system.windows.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "DotnetGeminiSDK >= 1.0.14"
+      "DotnetGeminiSDK >= 1.0.14",
+      "System.Windows.Extensions >= 9.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\POE Part 2.csproj",
+      "projectUniqueName": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\POE Part 2.csproj",
       "projectName": "POE Part 2",
-      "projectPath": "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\POE Part 2.csproj",
-      "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER-PC\\Documents\\School\\PROG 2A\\POE Part 2\\obj\\",
+      "projectPath": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\POE Part 2.csproj",
+      "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -182,6 +226,10 @@
           "DotnetGeminiSDK": {
             "target": "Package",
             "version": "[1.0.14, )"
+          },
+          "System.Windows.Extensions": {
+            "target": "Package",
+            "version": "[9.0.5, )"
           }
         },
         "imports": [
@@ -200,7 +248,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
