@@ -26,7 +26,7 @@ namespace POE_Part_2
             // Initialize the GeminiClient with the default configuration
             _geminiClient = new GeminiClient(new GoogleGeminiConfig() 
             {
-               ApiKey = "AIzaSyAy8kdkXnByuw_g3_7du3wDs9ndNuk9ow4", TextBaseUrl = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash"
+               ApiKey = "AIzaSyAy8kdkXnByuw_g3_7du3wDs9ndNuk9ow4", TextBaseUrl = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash"
 
             });
             this.question = question;            
