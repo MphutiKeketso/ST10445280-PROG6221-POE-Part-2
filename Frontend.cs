@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using System.Media;
-
 
 namespace POE_Part_2
 {
@@ -75,7 +73,9 @@ namespace POE_Part_2
                 if (!string.IsNullOrEmpty(userInput))
                 {
                     Backend backend = new Backend(userInput);
-                    backend.Question(); // Call the Question method and wait for it to complete
+                
+                    backend.CheckQuiz(); // Call the Question method and wait for it to complete
+                
                     userInput = ""; // Reset userInput for the next iteration
                 }
                 else
@@ -84,28 +84,5 @@ namespace POE_Part_2
                 }
             }
         }
-
-        public static void Play()
-        {
-            try
-            {
-                SoundPlayer player = new SoundPlayer("Resources/greeting.wav");
-                player.PlaySync();
-            }
-            catch (FileNotFoundException)
-            {
-                Console.WriteLine("[Error: The audio file was not found. Please ensure it exists at the specified location.]");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("[Error playing audio: " + e.Message + "]");
-            }
-
-
-        }
-
-
-
-
     }
 }

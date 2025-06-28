@@ -10,13 +10,13 @@ namespace POE_Part_2
 {
     class Program
     {
-
+        public static string name = "";
 
         static void Main(string[] args)
         {
             //GUI.Play();
             Console.ForegroundColor = ConsoleColor.Red;
-            String name = "";
+            
             while (name == "")
             {
                 Frontend.StartDisplayGUI();

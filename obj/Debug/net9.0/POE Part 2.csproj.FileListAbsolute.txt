@@ -17,3 +17,23 @@ C:\Users\USER-PC\Documents\School\PROG 2A\POE Part 2\obj\Debug\net9.0\refint\POE
 C:\Users\USER-PC\Documents\School\PROG 2A\POE Part 2\obj\Debug\net9.0\POE Part 2.pdb
 C:\Users\USER-PC\Documents\School\PROG 2A\POE Part 2\obj\Debug\net9.0\POE Part 2.genruntimeconfig.cache
 C:\Users\USER-PC\Documents\School\PROG 2A\POE Part 2\obj\Debug\net9.0\ref\POE Part 2.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\POE Part 2.exe
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\POE Part 2.deps.json
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\POE Part 2.runtimeconfig.json
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\POE Part 2.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\POE Part 2.pdb
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\DotnetGeminiSDK.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.AssemblyInfo.cs
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.sourcelink.json
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.csproj.Up2Date
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\refint\POE Part 2.dll
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.pdb
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\POE Part 2.genruntimeconfig.cache
+C:\Users\lab_services_student\Documents\PROG 2A\POE\Part 2\ST10445280-PROG6221-POE-Part-2\obj\Debug\net9.0\ref\POE Part 2.dll

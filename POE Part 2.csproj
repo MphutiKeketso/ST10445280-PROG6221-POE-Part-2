@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <PackageReference Include="DotnetGeminiSDK" Version="1.0.14" />
-    <PackageReference Include="System.Windows.Extensions" Version="9.0.5" />
   </ItemGroup>
 
 </Project>

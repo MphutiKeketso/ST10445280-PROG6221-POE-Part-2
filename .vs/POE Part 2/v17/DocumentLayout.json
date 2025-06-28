@@ -35,8 +35,7 @@
               "ViewState": "AgIAAD8AAAAAAAAAAAAqwF8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T17:30:51.27Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -46,7 +45,7 @@
               "RelativeDocumentMoniker": "Backend.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\PROG 2A\\POE\\Part 2\\ST10445280-PROG6221-POE-Part-2\\Backend.cs",
               "RelativeToolTip": "Backend.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBwAAACOAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAADAZmZmZiYqwBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T16:12:25.83Z",
               "EditorCaption": ""
